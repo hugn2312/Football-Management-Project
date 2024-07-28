@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="10dp"
+    tools:context=".fragment.StatsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <!--       enclose your code for contents of fragment here. This helped me to add scroll view to the fragment-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingVertical="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Statistics"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/oracle"
+                    android:layout_marginLeft="15dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2022/23 Top Stats"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:background="#551E60"
+                    android:layout_width="200dp"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:src="@drawable/halaand"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:background="#280D30"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:text="28"
+                            android:gravity="center"
+                            android:textSize="33sp"
+                            android:textStyle="bold"
+                            android:textColor="#F62164"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Goals"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="#FFFFFF"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="3dp"
+                    android:background="#551E60"
+                    android:layout_width="200dp"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:src="@drawable/kevin"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:background="#280D30"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:text="13"
+                            android:gravity="center"
+                            android:textSize="33sp"
+                            android:textStyle="bold"
+                            android:textColor="#F62164"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Most Assists"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="#FFFFFF"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:background="#551E60"
+                    android:layout_width="200dp"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/a_mc"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:background="#280D30"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:text="71"
+                            android:gravity="center"
+                            android:textSize="33sp"
+                            android:textStyle="bold"
+                            android:textColor="#F62164"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Goals"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="#FFFFFF"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="3dp"
+                    android:background="#551E60"
+                    android:layout_width="200dp"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/a_mc"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:background="#280D30"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:text="18.243"
+                            android:gravity="center"
+                            android:textSize="33sp"
+                            android:textStyle="bold"
+                            android:textColor="#F62164"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Most Assists"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="#FFFFFF"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                android:drawableRight="@drawable/baseline_arrow_right_alt_24"
+                android:padding="12dp"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Season Stats"
+                android:textAllCaps="false"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <Button
+                android:drawableRight="@drawable/baseline_arrow_right_alt_24"
+                android:padding="12dp"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="All-time Stats"
+                android:textAllCaps="false"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <Button
+                android:drawableRight="@drawable/baseline_arrow_right_alt_24"
+                android:padding="12dp"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Records"
+                android:textAllCaps="false"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <Button
+                android:drawableRight="@drawable/baseline_arrow_right_alt_24"
+                android:padding="12dp"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Player Comparison"
+                android:textAllCaps="false"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_marginTop="15dp"
+                android:drawableRight="@drawable/baseline_arrow_right_alt_24"
+                android:padding="12dp"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="PL2 Stats"
+                android:textAllCaps="false"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <Button
+                android:drawableRight="@drawable/baseline_arrow_right_alt_24"
+                android:padding="12dp"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="U18 Stats"
+                android:textAllCaps="false"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

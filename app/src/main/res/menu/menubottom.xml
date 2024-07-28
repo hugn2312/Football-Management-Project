@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bottom_latest"
+        android:title="@string/tab_latest"
+        android:icon="@drawable/baseline_newspaper_24"
+        />
+    <item
+        android:id="@+id/bottom_pl"
+        android:title="@string/tab_pl"
+        android:icon="@drawable/logo3"
+         />
+    <item android:id="@+id/bottom_fantasy"
+        android:title="@string/tab_fantasy"
+        android:icon="@drawable/tshirt"/>
+    <item android:id="@+id/bottom_stats"
+        android:title="@string/tab_stats"
+        android:icon="@drawable/graph2"/>
+    <item android:id="@+id/bottom_more"
+        android:title="@string/tab_more"
+        android:icon="@drawable/baseline_more_vert_24"/>
+
+</menu>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:background="@drawable/bg"
+    tools:context=".fragment.LastestFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo2"
+            android:padding="8dp"
+            />
+       <com.example.doanmh.font.OswaldTV
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Matchday Live"
+           android:textColor="@color/white"
+           android:textSize="24sp"
+           android:padding="8dp"
+           />
+        <com.example.doanmh.font.RalewayTV
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sunday, 14 May 2023"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:padding="8dp"
+
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:src="@drawable/a_arsenal"
+                android:layout_marginLeft="100dp"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/a_mu"
+                android:layout_marginLeft="230dp"/>
+                <com.example.doanmh.font.RalewayTV
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20 : 00 "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="170dp"/>
+                    <com.example.doanmh.font.OswaldTV
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ARS                                 MUN"
+                        android:textSize="30sp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"/>
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:layout_marginTop="20dp">
+            <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/a_mc"
+                    android:layout_marginLeft="100dp"/>
+            <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/a_liver"
+                    android:layout_marginLeft="230dp"/>
+                <com.example.doanmh.font.RalewayTV
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="22 : 00 "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="170dp"/>
+                    <com.example.doanmh.font.OswaldTV
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MC                                  LIV"
+                        android:textColor="@color/black"
+                        android:textSize="30sp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"/>
+        </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/jesusnews" />
+
+    <com.example.doanmh.font.OswaldTV
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reivew"
+        android:textColor="#970461"
+        android:layout_marginLeft="18dp"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btJesus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2A0630"
+        android:hint="Jesus inspires Arsenal to keep distance from Man City"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/brunonews"/>
+        <Button
+            android:id="@+id/btBru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2A0630"
+            android:hint="DGW29 FPL stats: All eyes on No 1 target Fernandes"
+            android:textColorHint="@color/white"
+            android:textSize="16dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/odergaadnew" />
+
+        <Button
+            android:id="@+id/btOder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2A0630"
+            android:hint="Double Gameweek 29 FPL bonus points: Odegaard gets extras"
+            android:textColorHint="@color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white">
+        <com.example.doanmh.font.OswaldTV
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matchweek 29"
+            android:textSize="24sp"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo3"
+            android:layout_gravity="right"
+            android:layout_marginTop="18dp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#CFCACA"
+            android:layout_marginTop="100dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saturday, 14 May 2023"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:textSize="16dp"/>
+        </FrameLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="140dp">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/a_arsenal"
+                android:layout_marginLeft="90dp"/>
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/a_leeds"
+                android:layout_marginLeft="230dp"/>
+            <com.example.doanmh.font.OswaldTV
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arsenal                                          Leeds"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="15dp"/>
+            <FrameLayout
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:background="#380242"
+                android:layout_marginLeft="164dp"
+                android:layout_marginTop="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:textColor="@color/white"
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:background="#380242"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="@color/white"
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </FrameLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="200dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/a_mc"
+                android:layout_marginLeft="95dp"/>
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="50dp"
+                android:src="@drawable/a_liver"
+                android:layout_marginLeft="245dp"/>
+            <com.example.doanmh.font.OswaldTV
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Man City                                            Liverpool"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"/>
+            <FrameLayout
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:background="#380242"
+                android:layout_marginLeft="164dp"
+                android:layout_marginTop="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:textColor="@color/white"
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:background="#380242"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="@color/white"
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </FrameLayout>
+        </RelativeLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#CFCACA"
+            android:layout_marginTop="270dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tuesday, 16 May 2023"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:textSize="16dp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="320dp"
+            android:background="@color/cardview_shadow_end_color">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/a_everton" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="245dp"
+                android:src="@drawable/a_tot" />
+
+            <com.example.doanmh.font.OswaldTV
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:text="Everton                                               Tottenham"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="8dp"
+                android:background="#E4E4E4">
+
+                <com.example.doanmh.font.RalewayTV
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="02 : 00"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="64dp"
+                android:src="@drawable/a_westham" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/a_newcastle" />
+
+            <com.example.doanmh.font.OswaldTV
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="66dp"
+                android:text="West Ham                                               Newcastle"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="64dp"
+                android:background="#E4E4E4">
+
+                <com.example.doanmh.font.RalewayTV
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="02 : 00"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+            </FrameLayout>
+            <Button
+                android:id="@+id/btAll_Fx"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="100dp"
+                android:background="@color/cardview_shadow_end_color"
+                android:hint="All Fixtures"
+                android:textSize="16sp"
+                android:textColorHint="@color/black"
+                android:textAlignment="textEnd"
+                android:drawableRight="@drawable/baseline_arrow_forward_25"/>
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="400dp"
+        android:layout_height="10dp"
+        android:background="@drawable/pl_theme"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:background="@color/white">
+        <Button
+            android:id="@+id/btAlltable"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:hint="All Tables"
+            android:textSize="16sp"
+            android:textColorHint="@color/black"
+            android:textAlignment="textEnd"
+            android:drawableRight="@drawable/baseline_arrow_forward_25"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="League Table"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo3"
+            android:layout_marginLeft="150dp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#DFDEDE"
+            android:layout_marginTop="60dp">
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pas           Club               PL              G                Pts"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"/>
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvtable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            tools:listitem="@layout/item_bxh_layout"/>
+
+    </FrameLayout>
+</LinearLayout>
+</ScrollView>

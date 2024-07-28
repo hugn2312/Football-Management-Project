@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".ui.TeamActivity">
+
+<!--    <androidx.appcompat.widget.SearchView-->
+<!--        android:id="@+id/searchView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:queryHint="Search here ... "-->
+<!--        android:background="@drawable/search_view_bg"-->
+<!--        app:iconifiedByDefault="false"-->
+<!--        android:layout_margin="8dp" />-->
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/baseline_arrow_back_24"
+        android:background="@color/cardview_shadow_end_color"
+        android:layout_marginLeft="16dp"/>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_view_bg"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:menu="@menu/menu_teams"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#ACACAC"
+        android:layout_marginTop="16dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTeam"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_latest"
+            android:title="@string/nav_latest"
+            android:icon="@drawable/baseline_newspaper_24"
+            />
+        <item
+            android:id="@+id/nav_pl"
+            android:title="@string/nav_pl"
+            android:icon="@drawable/logo3"
+            />
+        <item
+            android:id="@+id/nav_fantasy"
+            android:title="@string/nav_Fantasy"
+            android:icon="@drawable/tshirt"
+            />
+        <item
+            android:id="@+id/nav_stats"
+            android:title="@string/nav_stats"
+            android:icon="@drawable/graph2"
+            />
+        <item
+            android:id="@+id/nav_more"
+            android:title="@string/nav_more"
+            android:icon="@drawable/baseline_more_vert_24"
+            />
+    </group>
+
+    <item android:title="@string/nav_account">
+        <menu>
+            <item
+                android:id="@+id/nav_myprofile"
+                android:title="@string/nav_myprofile"
+                android:icon="@drawable/baseline_account_circle_24"
+                />
+<!--            <item-->
+<!--                android:id="@+id/nav_changepassword"-->
+<!--                android:title="@string/nav_changepassword"-->
+<!--                />-->
+            <item
+                android:id="@+id/nav_signout"
+                android:title="@string/nav_signout"
+                android:icon="@drawable/baseline_logout_24"
+                />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".news.NewsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/btBack"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:hint="Back"
+            android:textSize="16sp"
+            android:textColorHint="@color/white"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEWS"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="64dp"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <com.example.doanmh.font.OswaldTV
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reivew"
+                android:textColor="#970461"
+                android:layout_marginLeft="8dp"
+                android:textSize="20dp"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jesus inspires Arsenal to keep distance from Man City"
+                android:textColor="@color/white"
+                android:textSize="28sp"/>
+            <com.example.doanmh.font.RalewayTV
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12 May 2023, 02:35"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+
+                android:src="@drawable/jesusnews" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:background="@color/white">
+                <com.example.doanmh.font.RalewayTV
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="  Arsenal responded to Manchester City’s 4-1 victory over Liverpool by easing past Leeds United by the same scoreline to maintain their eight-point lead at the top of the Premier League."
+                    android:textSize="22dp"
+                    android:textColor="@color/black"/>
+                <com.example.doanmh.font.RalewayTV
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="170dp"
+                    android:padding="8dp"
+                    android:text="  Gabriel Jesus was the hero for Arsenal, scoring twice for his first goals since 1 October and his return from his World Cup injury."
+                    android:textSize="22dp"
+                    android:textColor="@color/black"/>
+                <com.example.doanmh.font.RalewayTV
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="The striker opened the scoring against the run of play with a penalty, after he was fouled by Luke Ayling."
+                    android:textSize="22dp"
+                    android:layout_marginTop="290dp"
+                    android:textColor="@color/black"/>
+                <com.example.doanmh.font.RalewayTV
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Ben White doubled the lead early in the second half before Jesus got his second after good work from Leandro Trossard, who supplied his ninth assist of the season."
+                    android:textSize="22dp"
+                    android:layout_marginTop="410dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No Haaland, no problem for City"
+                    android:textSize="26sp"
+                    android:layout_marginTop="550dp"
+                    android:textColor="#220A4C"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

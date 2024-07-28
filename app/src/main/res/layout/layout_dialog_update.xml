@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_corner_16">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Update Club"
+            android:background="@drawable/bg_tv_corner_16"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:elevation="16dp"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/ed_Stt"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_ed_corner_16"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-light"
+            android:hint="STT"
+            android:paddingLeft="8dp"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:elevation="16dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/ed_Name"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_ed_corner_16"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+
+            android:fontFamily="sans-serif-light"
+            android:hint="Name Club"
+            android:paddingLeft="8dp"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:elevation="16dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/ed_Pl"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_ed_corner_16"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+
+            android:fontFamily="sans-serif-light"
+            android:hint="PL"
+            android:paddingLeft="8dp"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:elevation="16dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/ed_Gd"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_ed_corner_16"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-light"
+            android:hint="GD"
+            android:paddingLeft="8dp"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:elevation="16dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/ed_Pts"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_ed_corner_16"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-light"
+            android:hint="PTS"
+            android:paddingLeft="8dp"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:elevation="16dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Update"
+                android:backgroundTint="#4A0767"
+                android:textColorHint="@color/white"
+                android:layout_marginTop="16dp"/>
+            <Button
+                android:id="@+id/btCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Cancel"
+                android:layout_weight="1"
+                android:textColorHint="@color/white"
+
+                android:backgroundTint="#8A8A8A"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
